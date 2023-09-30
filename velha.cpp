@@ -4,6 +4,10 @@
 
  
 #include "catch_amalgamated.hpp"
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
 
 /** 
  * @brief verifica situacao do jogo da velha  
@@ -23,7 +27,14 @@ int VerificaVelha( int velha[3][3] )
             return 2;
         }
     }
-
+    // verificar linhas
+    for (int linha = 0; linha < 3; linha++) {
+        if (velha[linha][0] == velha[linha][1] && velha[linha][1] == velha[linha][2] && velha[linha][0] == 1) {
+            return 1;
+        } else if (velha[linha][0] == velha[linha][1] && velha[linha][1] == velha[linha][2] && velha[linha][0] == 2) {
+            return 2;
+        }
+    }
 
 	return 0; /*!< retorna zero para teste */
 }
