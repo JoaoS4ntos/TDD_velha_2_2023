@@ -4,11 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
+        
         {
             "name": "(gdb) Attach",
             "type": "cppdbg",
             "request": "attach",
-            "program": "${workspaceFolder}/testa_velha.cpp",
+            "program": "C:/Users/jpfsa/Downloads/TDD_velha_2_2023/testa_velha.cpp",
             "MIMode": "gdb",
             "miDebuggerPath": "c:/msys64/ucrt64/bin/gdb.exe",
             "setupCommands": [

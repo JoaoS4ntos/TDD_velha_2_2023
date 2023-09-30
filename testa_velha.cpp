@@ -3,8 +3,8 @@
  * \file testa_velha.cpp
  */
 
-#include "velha.hpp"
-
+#include "catch_amalgamated.hpp"
+#include "velha.cpp"
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
   
