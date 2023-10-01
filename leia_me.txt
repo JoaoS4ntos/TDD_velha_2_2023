@@ -1,9 +1,15 @@
-﻿com o g++  make e demais programas instalados 
-com todos os arquivos no mesmo diretório
-digite "make" neste diretório 
-para cada regra você pode digitar make e nome da regra ex. make cppcheck
-
-fazer um git commit para cada teste ou código adicionado
-
+﻿
 ---> Olá professor, o link do repositório git onde se encontram os commits passo a passo do codigo é:
 	https://github.com/JoaoS4ntos/TDD_velha_2_2023.git
+
+---> O programa deve ser compilado inserindo no terminal o seguinte comando:
+	g++ -g testa_velha.cpp -o testa
+
+---> Depois de compilado, ele deve ser depurado, segundo as instruções do roteiro , pelo GDB pelos seguintes comandos:
+- 	gdb
+-	c (p/ continuar)
+-	file ./testa
+- 	run
+
+E assim será depurado e testado de acordo com os testes do arquivo testa_velha.cpp.
+	
