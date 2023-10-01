@@ -4,3 +4,6 @@ digite "make" neste diretório
 para cada regra você pode digitar make e nome da regra ex. make cppcheck
 
 fazer um git commit para cada teste ou código adicionado
+
+---> Olá professor, o link do repositório git onde se encontram os commits passo a passo do codigo é:
+	https://github.com/JoaoS4ntos/TDD_velha_2_2023.git
