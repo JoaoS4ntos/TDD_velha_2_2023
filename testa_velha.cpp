@@ -36,12 +36,18 @@ TEST_CASE( "Testa velha", "[single-file]" ) {
 						  { 0, 0, 1 }
 
 					};
+	int teste6[3][3]={    { 1, 1, 1 }, //testando jogo impossível
+	                      { 1, 1, 1 },
+						  { 1, 1, 1 }
+
+					};
 	
     REQUIRE( VerificaVelha(teste1) == 1 );
 	REQUIRE( VerificaVelha(teste2) == 2 );
 	REQUIRE( VerificaVelha(teste3) == 2);
 	REQUIRE( VerificaVelha(teste4) == 0);
 	REQUIRE( VerificaVelha(teste5) == -1);
+	REQUIRE( VerificaVelha(teste6) == -2);
 
 }
  
